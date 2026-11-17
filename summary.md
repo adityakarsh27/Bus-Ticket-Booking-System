@@ -2,10 +2,8 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![PS No.](https://img.shields.io/badge/PS_No.-40-indigo?style=for-the-badge)
-![Tests](https://img.shields.io/badge/Tests_Passed-15%2F15-success?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Submission_Ready-brightgreen?style=for-the-badge)
+
 
 </div>
 
@@ -120,47 +118,10 @@ All **4 standard test cases** from the project specification and **11 additional
 
 ---
 
-## 9. 🎓 Possible Viva Questions & Answers
-
-<details>
-<summary><strong>1. Why did you use a list for seats and a dictionary for passengers?</strong></summary>
-<br>
-A <code>list</code> is naturally ordered by seat index and works great for a fixed block of 10 seats, while a <code>dictionary</code> maps each booked seat number directly to a passenger name for $O(1)$ lookup, insertion, and deletion.
-</details>
-
-<details>
-<summary><strong>2. How do you stop the same seat from being booked twice?</strong></summary>
-<br>
-<code>book_seat</code> checks <code>seats[seat - 1] == "Booked"</code> before accepting a passenger name and immediately outputs <code>Seat N is already booked.</code>
-</details>
-
-<details>
-<summary><strong>3. How is the cancellation refund calculated?</strong></summary>
-<br>
-Using integer floor division: <code>FARE_PER_SEAT * REFUND_PERCENT // 100</code>, which evaluates to <code>500 * 80 // 100 = 400</code>.
-</details>
-
-<details>
-<summary><strong>4. Why is seat 1 stored at index 0?</strong></summary>
-<br>
-Python lists are zero-indexed, so human-readable seat number $n$ maps cleanly to list index $n - 1$.
-</details>
-
-<details>
-<summary><strong>5. What happens if the user types text instead of a seat number?</strong></summary>
-<br>
-<code>parse_seat</code> rejects the non-numeric input, returns <code>None</code>, and the program prints <code>Invalid seat. Choose a seat from 1 to 10.</code> without crashing.
-</details>
-
-<details>
-<summary><strong>6. How did you test the program?</strong></summary>
-<br>
-Using the built-in <code>--test</code> runner, which simulates user input across all 4 required test cases and 11 additional edge cases.
-</details>
 
 ---
 
-## 10. 🚀 Limitations & Future Improvements
+## 9. 🚀 Limitations & Future Improvements
 
 * **💾 Persistent Storage:** Bookings currently reside in memory and reset on exit; saving data to a JSON/CSV file or SQLite database would preserve records across sessions.
 * **🚌 Multi-Bus & Route Support:** Extend the system to manage multiple buses, routes, schedules, and travel dates.
@@ -169,7 +130,7 @@ Using the built-in <code>--test</code> runner, which simulates user input across
 
 ---
 
-## 11. 📦 GitHub Submission Checklist
+## 10. 📦 GitHub Submission Checklist
 
 * [ ] `bus_ticket_booking.py`, `README.md`, and `SUMMARY.md` are placed in the same repository
 * [ ] `python bus_ticket_booking.py --test` outputs `15/15` passed locally

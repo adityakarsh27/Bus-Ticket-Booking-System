@@ -1,14 +1,6 @@
 """
 Bus Ticket Booking System
 =========================
-Programming Fundamentals and Logic Building Using Python (RU-100-01-0021)
-Rungta International Skills University - School of Computer Science and Engineering
-
-PS No.   : 40
-Student  : Aditya Kumar Karsh
-ERP No.  : RU-26-00063
-Section  : BE-CSE-C-1-26-1-K
-
 A console ticket booking system for a bus with 10 numbered seats (1 to 10).
 Passengers can view seats, book a seat, view bookings and cancel a booking.
 

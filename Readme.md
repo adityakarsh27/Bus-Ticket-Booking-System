@@ -5,10 +5,6 @@
 **A sleek, console-based ticket booking system for a bus with numbered seats, built in Python 3.**  
 *Seamlessly view seats, book tickets, manage bookings, and process instant refunds.*
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Dependencies](https://img.shields.io/badge/Dependencies-None-2EA44F?style=for-the-badge)
-![Tests](https://img.shields.io/badge/Tests-15%2F15%20Passed-success?style=for-the-badge)
-![Architecture](https://img.shields.io/badge/Architecture-Single%20File-orange?style=for-the-badge)
 
 </div>
 
@@ -22,9 +18,8 @@
 | **👨‍💻 Student** | **Aditya Kumar Karsh** |
 | **🆔 ERP No.** | `RU-26-00063` |
 | **🏫 Section** | `BE-CSE-C-1-26-1-K` |
-| **📚 Course** | Programming Fundamentals and Logic Building Using Python (`RU-100-01-0021`) |
+| **📚 Course** | Programming Fundamentals and Logic Building Using Python |
 | **🏛️ University** | Rungta International Skills University – School of Computer Science and Engineering |
-| **📅 Submission Date** | 16 November 2026 |
 | **⚙️ Language** | Python 3 *(single file, zero external libraries)* |
 
 ---
@@ -239,7 +234,7 @@ bookings = {3: "Aman", 5: "Riya"}                         # dictionary: {seat_nu
 
 <div align="center">
 
-### 👨‍💻 Author
+### 👨‍💻 Developed By
 
 **Aditya Kumar Karsh**  
 ERP: `RU-26-00063` • Section: `BE-CSE-C-1-26-1-K`  
